@@ -1,0 +1,44 @@
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #cec5c5;
+    box-shadow: 0 2px 4px rgba(122, 20, 20, 0.1);
+    
+    
+}
+
+nav a {
+    text-decoration: none; /* Quita el subrayado */
+    margin-right: 1.5rem; /* Separa los enlaces */ 
+    color: #333; /* Cambia el color del texto (opcional) */
+    font-weight: bold; /* Resalta el texto (opcional) */
+}
+
+nav a:hover {
+    color: #f17575; /* Cambia el color del texto al pasar el mouse */
+}
+
+#baner {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.foto {
+  width: 200px;
+  height: 200px;  
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-right: 70%;
+}
