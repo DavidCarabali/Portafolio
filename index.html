@@ -1,33 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inicio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portafolio - Desarrollador Java Full Stack</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <nav> <! -- menu de navegacion -->  
-       <a href="#">Inicio</a>
-       <a href="proyecto.html">Proyecto</a>
-       <a href="contacto.html">Contacto</a>
-       <a href="Acerca_De_Mi.html">Acerca De Mi</a>
-       <a href="blog.html">Blog</a>
-    </nav> 
-
-    <section id="baner"> <! -- seccion de presentacion --> 
-        <div>
-            <img class="foto" src="/Portafolio/Imagenes/David.jpg" alt="foto">
-        </div>
-        <div class="contenedor">
-        <h1>¡Hola! Soy <span>David</span></h1>
-        <p>Desarrolladora web</p> 
-        </div>
-         
+    <!-- Hero Section -->
     
+        <nav class="navbar">
+     
+            <div class="nav-links">
+                <a href="#about">Sobre mí</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact">Contacto</a>
+            
+        </nav>
+        <div class="hero-content">
+            <h1>Javier David Carabali</h1>
+            <h3>Gestor Redes De Datos | Desarrollador Java Junior Full Stock</h3>
+            <h3> Especialista en VoIP y Telefonía IP (Asterisk) | Analista Primer Nivel</h3>
+           <!-- <p>Transformando ideas en soluciones tecnológicas</p> -->
+            <a href="#contact" class="cta-button">Contáctame</a> 
+        </div>
     </section>
 
-    <div></div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre mí</h2>
+                    <p>Soy Tecnólogo en Gestión de Redes de Datos, apasionado por la tecnología, con experiencia en Telefonía IP (Asterisk), mantenimiento de tecnología satelital (VSAT) y soporte técnico de primer nivel. Me especializo en optimizar infraestructuras de red, asegurar comunicaciones eficientes y ofrecer soluciones rápidas a problemas técnicos. Me caracteriza mi proactividad, enfoque en resultados y compromiso en cada actividad.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Años de experiencia</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Proyectos completados</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>30+</h3>
+                            <p>Clientes satisfechos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="/Imagenes/javi.jpg" alt="Mi foto profesional">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Mis Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">Spring Boot</div>
+                        <div class="skill-item">Hibernate</div>
+                        <div class="skill-item">REST APIs</div>
+                        <div class="skill-item">Microservicios</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS3</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Angular</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Bases de Datos</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">MySQL</div>
+                        <div class="skill-item">PostgreSQL</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">Oracle</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistema de Gestión Empresarial</h3>
+                        <p>Aplicación web completa desarrollada con Spring Boot y Angular</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring</span>
+                            <span>Angular</span>
+                        </div>
+                        <a href="#" class="project-link">Ver proyecto</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Plataforma de comercio electrónico con microservicios</p>
+                        <div class="project-tags">
+                            <span>Microservicios</span>
+                            <span>Spring Cloud</span>
+                            <span>React</span>
+                        </div>
+                        <a href="#" class="project-link">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¡Hablemos sobre tu proyecto!</h3>
+                    <p>Estoy disponible para freelance y oportunidades de trabajo full-time.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email:</span>
+                            <span>javierdavidcarabali@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">LinkedIn:</span>
+                            <span>www.linkedin.com/in/javier-carabali-8017581a9</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">GitHub:</span>
+                            <span>github.com/tuusuario</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                    <button type="submit" class="submit-button">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/javier-carabali-8017581a9">LinkedIn</a>
+                    <a href="https://github.com/DavidCarabali">GitHub</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
