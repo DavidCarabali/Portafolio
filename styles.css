@@ -35,10 +35,11 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    font-size: 1.5rem;
+#logo {
+    font-size: 2rem;
     font-weight: bold;
     color: #1a237e;
+    text-decoration: none;
 }
 
 .menu-btn {
@@ -254,6 +255,7 @@ body {
 
 .project-info {
     padding: 1.5rem;
+    text-align: justify;
 }
 
 .project-info h3 {
@@ -360,6 +362,7 @@ footer {
     background-color: #1a237e;
     color: white;
     padding: 3rem 0;
+    text-align: center;
 }
 
 .footer-content {
@@ -367,6 +370,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+    justify-content: center; /* Alinea al centro */
 }
 
 .footer-logo {
@@ -374,11 +378,17 @@ footer {
     font-weight: bold;
 }
 
-.social-links a {
-    color: white;
-    text-decoration: none;
-    margin-left: 2rem;
-}
+.social-icon {
+        width: 35px; /* Ajusta el tamaño de los iconos */
+        height: 35px;
+        margin-right: 20px; /* Espacio entre el icono y el texto */
+        vertical-align: middle; /* Alinea verticalmente el icono con el texto */
+    }
+
+
+
+
+
 
 .footer-bottom {
     text-align: center;
@@ -424,6 +434,7 @@ footer {
 @media screen and (max-width: 768px) {
     .menu-btn {
         display: block;
+        
     }
 
     .nav-links {
@@ -523,3 +534,5 @@ footer {
         padding: 6rem 0;
     }
 }
+
+

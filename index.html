@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio - Desarrollador Java Full Stack</title>
+    <link rel="icon" href="/Imagenes/favicon.svg" type="image/x-icon"> <!-- Favicon -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Hero Section -->
     
         <nav class="navbar">
-     
-            <div class="nav-links">
+        <a href="#" id="logo">JD</a>
+
+        <div class="menu-btn" id="menu-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+                <div class="nav-links">
                 <a href="#about">Sobre mí</a>
                 <a href="#skills">Habilidades</a>
                 <a href="#projects">Proyectos</a>
@@ -117,17 +124,17 @@
                 </div>
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="/api/placeholder/400/300" alt="Proyecto 2">
+                        <img src="/Imagenes/GYM.jpg" alt="Proyecto 2">
                     </div>
                     <div class="project-info">
-                        <h3>E-commerce Platform</h3>
-                        <p>Plataforma de comercio electrónico con microservicios</p>
+                        <h3>GYM</h3>
+                        <p>GYM es una landing page enfocada en ayudar a nuestros clientes a alcalzar sus metas fisicas en un ambiente motivador y profecional</p>
                         <div class="project-tags">
                             <span>Microservicios</span>
                             <span>Spring Cloud</span>
                             <span>React</span>
                         </div>
-                        <a href="#" class="project-link">Ver proyecto</a>
+                        <a href="https://github.com/OscarTorresDev/Lnading_Hackaton_grupo_6.git" class="project-link">Ver proyecto</a>
                     </div>
                 </div>
             </div>
@@ -180,9 +187,15 @@
         <div class="container">
             <div class="footer-content">
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/javier-carabali-8017581a9">LinkedIn</a>
-                    <a href="https://github.com/DavidCarabali">GitHub</a>
-                    <a href="#">Twitter</a>
+                    <a href="https://www.linkedin.com/in/javier-carabali-8017581a9">
+                        <img src="/Imagenes/linkedin.jpg" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://github.com/DavidCarabali">
+                        <img src="/Imagenes/GitHub.jpg" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="#">
+                        <img src="/Imagenes/Whatsapp.jpg" alt="WhatsApp" class="social-icon">
+                    </a>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -190,6 +203,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="node.js"></script>
+    
 </body>
 </html>
